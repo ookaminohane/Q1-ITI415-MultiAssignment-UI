@@ -539,7 +539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72960816}
   m_LocalRotation: {x: -0.28535372, y: -0.8787848, z: 0.3599288, w: -0.12946774}
-  m_LocalPosition: {x: 17.89494, y: 57.015656, z: 33.469746}
+  m_LocalPosition: {x: 17.89494, y: 135, z: 33.469746}
   m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000005}
   m_Children:
   - {fileID: 1301414552}
@@ -10626,8 +10626,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.1750888, y: 0.63167953, z: -0.1494045, w: 0.74027234}
-  m_LocalPosition: {x: 95.98008, y: 118, z: 112.55717}
+  m_LocalRotation: {x: -0.28535372, y: -0.8787848, z: 0.3599288, w: -0.12946774}
+  m_LocalPosition: {x: 17.89494, y: 135, z: 33.469746}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14614,7 +14614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418e42c7d0405cc48a7b83f63ea53bb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Path: {fileID: 1837701502}
+  m_Path: {fileID: 0}
   m_PathPosition: 0
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
@@ -21280,7 +21280,7 @@ MonoBehaviour:
     pathColor: {r: 0, g: 1, b: 0, a: 1}
     inactivePathColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     width: 0.2
-  m_Looped: 0
+  m_Looped: 1
   m_Waypoints:
   - position: {x: 4.805475, y: 0, z: -5}
     roll: 0
@@ -21290,11 +21290,11 @@ MonoBehaviour:
     roll: 0
   - position: {x: -333.1975, y: -63.676254, z: 18.127066}
     roll: 0
-  - position: {x: -373.5659, y: -38.998642, z: 203.81874}
-    roll: 0
   - position: {x: -219.73178, y: -85.312805, z: 278.25937}
     roll: 0
   - position: {x: -18.34531, y: 63.325455, z: 357.7024}
+    roll: 0
+  - position: {x: -18.345306, y: 47.77629, z: 203.81874}
     roll: 0
 --- !u!4 &1837701503
 Transform:
