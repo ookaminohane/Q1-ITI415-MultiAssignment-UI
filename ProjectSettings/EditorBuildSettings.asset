@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/snaps.unity
     guid: 079fd489b40398141be1aeda359a7eb2
+  - enabled: 1
+    path: Assets/Scenes/Probuilder.unity
+    guid: 531918ccc17534d4cbdaf4f0febb1093
   - enabled: 0
     path: Assets/scene2.unity
     guid: 099f3da89549b4cab84b59c9bb0e98b3

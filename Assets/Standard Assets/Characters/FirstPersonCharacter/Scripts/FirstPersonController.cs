@@ -254,6 +254,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 return;
             }
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
+
+            if (gameObject.CompareTag("Pick Up"))
+            {
+
+                int count = 0;
+                gameObject.SetActive(false);
+                count++;
+               
+            }
+
         }
     }
 }
